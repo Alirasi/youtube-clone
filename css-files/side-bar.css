@@ -1,0 +1,35 @@
+.div-side-bar
+{
+position: fixed;
+top: 75px;
+left: 0.7px;
+bottom: 0px;
+display: flex;
+flex-direction: column;
+}
+.side-bar-img
+{
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+.div-link-side
+{
+    width: 74px;
+    height: 74px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.div-link-side:hover
+{
+    background-color: lightgrey;
+}
+.div-link-side:active
+{
+    background-color: rgb(161, 161, 161);
+}
+
+
